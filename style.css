@@ -1,0 +1,78 @@
+body{ 
+    border: #000;
+    font-family: 'Lato', sans-serif;
+    border-color: #000;
+}
+div{
+    margin: 10px;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1120px;
+    width: 72%;
+    margin: 40px auto;
+    border-color: black;
+}
+.product1{
+    border: 1px solid #999999;
+    width: 410px;
+    margin: 10px 0;
+    padding: 20px;
+    border-radius: 3px;
+}
+.product2{
+    border: 1px solid #999999;
+    width: 400px;
+    margin: 10px 0;
+    padding: 20px;
+    border-radius: 3px;
+
+}
+#notepad1{
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    width: 400px;
+    height: 325px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+#notepad2{
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    width: 400px;
+    height: 325px;
+    object-fit: contain;
+    margin-bottom: 10px;
+
+}
+#Buy{
+    color: #853ae0;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 10px 10px 0px;
+}
+#Add{
+    color: #853ae0;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 10px 10px 0px;
+}
+#Back{
+    font-size: 12px;
+    display: block;
+    font-style: italic;
+    color: #000;
+    padding: 10px 10px 10px 0px;
+}
+.style{
+    background-color: #ebebeb;
+    padding: 20px;
+    margin-bottom: 20px;
+    list-style-type: none;
+}
+ul{
+    list-style-type: none;
+    background-color: #ebebeb;
+}
